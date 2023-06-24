@@ -21,7 +21,7 @@ img {
     display: flex;
     flex-direction: row;
     padding: 0.2rem 0rem;
-    margin: 0rem 1rem;
+    margin: 0rem 0.8rem;
 }
 
 .container-nav-item, a.nav-item {
@@ -33,8 +33,8 @@ img {
 }
 
 a.nav-item {
-    padding: 0.2rem 0.5rem;
-    margin: 0rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    margin: 1rem 0.35rem 0rem;
     background-color: rgb(44, 44, 44);
 }
 
@@ -64,7 +64,8 @@ a.nav-item:active {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    min-height: 80vw;
+    min-height: 100vh;
+    padding: 0rem 1.5rem;
     justify-content: center;
     background-image: url(https://images.pexels.com/photos/2382868/pexels-photo-2382868.jpeg);
     background-repeat: no-repeat;
@@ -75,7 +76,16 @@ a.nav-item:active {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    min-height: 80vw;
+    min-height: 80vh;
+    padding: 0rem 1.5rem;
+}
+
+.half-container-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 30vh;
+    padding: 0rem 1.5rem;
 }
 
 .container-row {
@@ -84,4 +94,98 @@ a.nav-item:active {
     justify-content: center;
 }
 
+.container-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    text-align:center;
+    min-height: 80vh;
+    padding: 0rem 3rem;
+}
+
+.container-section-header {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0.5rem 0rem 0rem;
+}
+
+.container-section-subheader {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem 3rem;
+}
+
+.container-section-content {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.container-button {
+    width: 100%;
+}
+
+/* special */
+
+ul.home-offer-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem 0rem 0rem;
+}
+
+ul.home-offer-list > li > div {
+    display: flex;
+    min-width: 80%;
+    flex-direction: column;
+}
+
+.home-offer {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.home-offer-content {
+    font-size: 1.35rem;
+    margin: 0rem 2rem 2rem;
+}
+
+.home-offer-subheader {
+    font-size: 2rem;
+    margin: 50vh 0rem;
+}
+
 /* site head */
+
+.home-header {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0rem 0rem 1rem;
+}
+
+.home-subheader {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* about */
+
+.container-row > p.section-content {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem 1.5rem;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem 2rem;
+}
+
+button.learn-more {
+    background-color:rgb(81, 141, 197);
+    font-size: 1.2rem;
+    color: white;
+    text-transform: capitalize;
+    padding: 0.65rem 1.35rem;
+}
